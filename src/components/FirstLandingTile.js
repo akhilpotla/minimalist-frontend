@@ -21,7 +21,7 @@ const FirstLandingTile = () => {
         Send Message
       </Button>
       <br/>
-      <img className="trim mt-3" src={messages} />
+      <img className="trim mt-3" src={messages} alt="imessages"/>
     </Container>
   )
 }
