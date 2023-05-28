@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
-import messages from '../imessages.jpeg';
+import messages from '../imessages.png';
 
 
 const FirstLandingTile = () => {
@@ -21,10 +21,9 @@ const FirstLandingTile = () => {
         Send Message
       </Button>
       <br/>
-      <img src={messages} />
+      <img className="trim mt-3" src={messages} />
     </Container>
   )
 }
 
 export default FirstLandingTile;
-
